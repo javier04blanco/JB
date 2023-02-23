@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    }
+    /* cabecera */
+.header {
+    padding: 60px; /*dejamos un padding de 60px*/
+    text-align: center; /*centramos todo el texto*/
+    background: #1abc9c; /*ponemos un fondo verde*/
+    color: white; /*ponemos letra en blanco*/
+  }
+  /* Estilo de la barra de navegación/menus */
+.navigation
+{
+  display: flex; /*usamos flex*/
+  background-color: rgb(165, 24, 24); /*ponemos un color casi negro*/
+}
+
+/* Estilo de los enlaces de la barra (los menus) */
+.navigation a {
+  color: white; /*los enlaces los ponemos en blanco*/
+  padding: 14px 20px;
+  text-decoration: none;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+  
+}
+
+/* cambiamos el color al pasar el ratón */
+.navigation a:hover {
+  background-color: #ddd; /*ponemos el color del fondo casi blanco*/
+  color: black; /*ponemos el texto en  negro*/
+  
+
+}
+/* Contenedor de la columna principal */
+.row {  
+    display: flex; /*indicamos que el flexible*/
+  }
+  /* Columna de la izquierda*/
+.sideleft {
+    flex: 35%; /*ocupará un 35%*/
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  /* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;}
+
+    /* Main column */
+.main {
+    flex: 65%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  
+    
+   
